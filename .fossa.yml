@@ -6,9 +6,9 @@ version: 3
 # Project metadata
 project:
   name: "FOSSA CLI Training Demo"
-  team: "Security Team"
+  # team: "Security Team"
   policy: "Standard Bundle Distribution"
-  url: "https://github.com/your-org/fossa-cli-training"
+  url: "https://github.com/allpaths/fossa-cli-training"
 
 # Target configuration
 targets:
