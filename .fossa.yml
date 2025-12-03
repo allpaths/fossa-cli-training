@@ -11,11 +11,11 @@ project:
   url: "https://github.com/your-org/fossa-cli-training"
 
 # Target configuration
-targets:
-  # Only analyze specific targets
-  only:
-    - type: npm
-      path: .
+# targets:
+#   # Only analyze specific targets
+#   only:
+#     - type: npm
+#       path: .
 
   # Exclude specific targets (alternative to 'only')
   # exclude:
