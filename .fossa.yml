@@ -1,0 +1,30 @@
+# FOSSA Configuration File
+# This file demonstrates various configuration options for FOSSA CLI
+
+version: 3
+
+# Project metadata
+project:
+  name: "FOSSA CLI Training Demo"
+  team: "Security Team"
+  policy: "Standard Bundle Distribution"
+  url: "https://github.com/your-org/fossa-cli-training"
+
+# Target configuration
+targets:
+  # Only analyze specific targets
+  only:
+    - type: npm
+      path: .
+
+  # Exclude specific targets (alternative to 'only')
+  # exclude:
+  #   - type: npm
+  #     path: ./legacy-code/
+
+# Path configuration
+paths:
+  # Exclude directories from analysis
+  exclude:
+    - build
+    - docs
