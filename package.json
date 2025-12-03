@@ -1,0 +1,34 @@
+{
+  "name": "fossa-cli-training-demo",
+  "version": "1.0.0",
+  "description": "Training repository for FOSSA CLI with vulnerable dependencies",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.4",
+    "moment": "2.19.0",
+    "request": "2.88.0",
+    "debug": "2.2.0",
+    "ms": "0.7.1",
+    "qs": "1.0.0",
+    "minimist": "0.0.8",
+    "tar": "2.0.0",
+    "hoek": "4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.0"
+  },
+  "keywords": [
+    "fossa",
+    "training",
+    "security",
+    "vulnerability",
+    "demo"
+  ],
+  "author": "FOSSA Training",
+  "license": "MIT"
+}
