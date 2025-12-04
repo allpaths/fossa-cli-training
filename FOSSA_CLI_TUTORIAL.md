@@ -1,4 +1,4 @@
-# FOSSA CLI Training Guide
+# FOSSA CLI Training Guide for Jeff
 
 Welcome to the comprehensive FOSSA CLI training guide! This repository contains intentionally vulnerable packages to help you learn how to use FOSSA CLI for security scanning and license compliance.
 
